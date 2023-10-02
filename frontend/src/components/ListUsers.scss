@@ -1,0 +1,74 @@
+$base-spacing-unit: 24px;
+$half-spacing-unit: calc($base-spacing-unit / 2);
+
+$color-alpha: #1772ff;
+$color-form-highlight: #eeeeee;
+
+table,
+td,
+th {
+	border: 1px solid;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+	border: 1px solid $color-form-highlight;
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+
+.container {
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.search-fd {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#site-search {
+	margin-right: 5px;
+}
+
+thead button {
+	border: 0;
+	border-radius: none;
+	font-family: inherit;
+	font-weight: 700;
+	font-size: inherit;
+	padding: 0.5em;
+	margin-bottom: 1px;
+}
+
+.bt-ui {
+	margin: 10px;
+	padding: 10px;
+}
+
+.links {
+	text-decoration: none;
+}
+
+.btn-grid {
+	margin-bottom: 10px;
+}
+
+// thead button.ascending::after {
+//   content: "👇";
+//   display: inline-block;
+//   margin-left: 1em;
+// }
+
+// thead button.descending::after {
+//   content: "☝️";
+//   display: inline-block;
+//   margin-left: 1em;
+// }
+
+// https://codepen.io/nathancockerill/pen/OQyXWb
